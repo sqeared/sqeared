@@ -1,0 +1,7 @@
+tips_bifurcate(lst, filter):
+ 	 return [
+    	[x for i, x in enumerate(lst) if filter[i] == True],
+    	[x for i, x in enumerate(lst) if filter[i] == False]
+ 	 ]
+
+print(tips_bifurcate(['white', 'green', 'red', 'blue'], [True, True, False, True])) 
