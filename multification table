@@ -1,0 +1,9 @@
+var total = '\n';
+for (var o = 1; o < 10; o++) {
+    for (var m = 1; m < 10; m++) {
+       total += ('  ' + (o * m)).slice(-3);
+    }
+    total += '\n'
+   
+}
+console.log(total)
